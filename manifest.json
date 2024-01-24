@@ -1,0 +1,15 @@
+
+{
+  "manifest_version": 2,
+  "name": "Noted",
+  "version": "1.0",
+  "description": "A simple note taking extension",
+  "permissions": ["tabs", "storage"],
+  "browser_action": {
+    "default_icon": "notebook.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "notebook.png"
+  }
+}
